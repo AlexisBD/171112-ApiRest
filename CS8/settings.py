@@ -97,13 +97,14 @@ WSGI_APPLICATION = 'CS8.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cs8db',
-        'USER': 'postgres',
-        'PASSWORD': '14072017',
-        'HOST':'localhost',
-        'PORT':'5432'
+        'NAME': 'apirest',
+        'USER': 'admin',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
